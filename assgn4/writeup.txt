@@ -1,0 +1,97 @@
+1. Name: Tanzima Sultana (Course - CS5331)
+   Name: Cynthia Cordova (Course - CS4318)
+   Name: Shubhangi Mahajan (Course - CS5331)
+   Location: San Marcos
+
+2. 2-3 days a week
+
+3. 
+
+Tanzima Sultana: 
+	1. Undeclared/Multiply declared functions & Function call mismatch
+	3. Expression, Assignment
+	3. Activation record & Function
+
+Shubhangi Mahajan: 
+	1. Condition
+
+Cynthia Cordova: 
+	1. Undeclared/Multiply declared variables
+	2. Condition
+	3. Iterative
+
+4.
+
+Test Case 1:
+
+int main(){
+	
+	int x;
+	int y;
+	int z;
+
+	x = 10;
+
+	if(x > 0){
+		y = 22;
+	}
+	else{
+		y = 33;
+	}
+
+	z = x * y + 100;
+}
+
+
+Test Case 2:
+
+int fun1(int x, int y){
+
+	int z;
+	z = x + y;
+	return z;
+}
+
+int main(){
+
+	int a;
+	a = 100;
+
+	fun1(a, 200);
+}
+
+5. Calling convention
+
+	Function declaration before function call.
+
+	// -----
+
+	function declaration
+
+	main(){
+		function call
+	}
+
+	Example:
+
+	void fun(){
+
+	}
+	int main(){
+		fun();
+	}
+
+	// -----
+
+6. Instruction to run code
+
+	1. Go to the assgn3 folder. Run 'make clean' & then 'make'.
+	2. To run example test, give the name of the test file in place of 'input_file'.
+		--ast is for AST tree
+		--sym for Symbol table
+
+	  ./obj/scanner –ast –sym input_file.mC
+	  Example: ./obj/scanner –ast –sym  test/cases/test.mC
+
+	3. Output is saved into output.asm
+	4. Run the output.asm in QtSpim simulator
