@@ -1,0 +1,55 @@
+1. Name: Tanzima Sultana
+   Name: Cynthia Cordova
+   Name: Shubhangi Mahajan
+   Course Id: CS5331
+   Location: San Marcos
+
+2. 2-3 days a week
+
+3. 
+Tanzima Sultana: Scanner, Parser, Symbol table code add in Parser, AST Tree, Scanner & Parser error, Fixing symbol table code error
+
+Shubhangi Mahajan and Cynthia Cordova: Symbol Table
+
+4.
+
+Test Case 1:
+
+int main()
+{
+	int x = 5;
+	while(x <= 10)
+	{
+		if(x < 8) 
+			x++;
+		else
+			if(x == 9)
+				x = x + 2;	
+	}
+	return x;
+}
+
+
+Test Case 2:
+
+int somefunction(char c)
+{
+	if(c == 's')
+		return 1;
+	else
+		return -1;
+}
+
+void main()
+{
+	char c = 's';
+	int a;
+	if(c == 't')
+	{
+		a = 2;
+	}
+	else
+	{
+		a = somefunction(c);
+	}
+}
