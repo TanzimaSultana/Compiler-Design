@@ -1,0 +1,62 @@
+1. Name: Tanzima Sultana
+   Name: Cynthia Cordova
+   Name: Shubhangi Mahajan
+   Course Id: CS5331
+   Location: San Marcos
+
+2. 2-3 days a week
+
+3. 
+
+Tanzima Sultana: Update symbol table, update tree, error checking (3, 4 & 6) for function decl/call mis-match & assignment type mis-match & array index check
+
+Shubhangi Mahajan:
+
+Cynthia Cordova: error checking 2 & 1 undeclared vars and redeclaration
+
+4.
+
+Test Case 1:
+
+int main(){
+	int a;
+	char b;
+	void c;
+
+	a = a * 100 - 10 + c;
+	b = b + 'b';
+	c = c + a;
+
+	a = 25/5 + a * a;
+	b = a + b;
+	c = a + b + c;
+}
+
+
+Test Case 2:
+
+void fun1(){
+	
+}
+
+char fun2(int a, char b, int c){
+	
+}
+
+void fun3(int a, int b){
+	
+}
+
+void fun4(int x, int y){
+	
+}
+
+int main(){
+
+	int a;
+	
+	fun1();
+	a = fun2(1, '2', 3);
+	fun3(a, 'x');
+	fun4(a);
+}
